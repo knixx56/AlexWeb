@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Xandria's Ink</title>
+</head>
+<div class="pagewrapper">
+    <body>
+        <section class="topage">
+            <h1>Xandria's ARtdd</h1>
+            <div>
+                <nav class="navlist">
+                    <ul>
+                        <li><a  href="#introducingart">Gallery</a></li>
+                        <li><a href="#artist-section">Artist(s)</a></li>
+                        <li><a href="#contact">ContactInfo</a></li>
+                    </ul>
+                </nav>
+                <form>
+                    <input type="text" placeholder=" Search...." name="search">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!----Artist Section -->
+        <section id="artist-section" class="artist-section">
+            <h2 class="name">XzelaCheatham</h2>
+            <img class="selfie " src="happyAlex.jpg" alt="happyAlex" />
+            <p class="greetings"><b>Hello Everyone!</b></p>
+        </section>
+        <!--Gallery Section-->
+        <section id="introducingart" class="introducingart">
+            <h2 class="galleryhead">Heart of an Artist</h2>
+            <div class="gallery">
+
+                <div class="border">
+                    <img class="image1" src="neighborhoodart.jpg" alt="streetlights" />
+                    <p>Tranquil Neighborhood</p>
+                </div>
+
+                <div class="border">
+                    <img class="image2" src="mutli.jpg" alt="variousArts" />
+                    <p>Array of Nature</p>
+                </div>
+
+                <div  class="border">
+                    <img class="image3" src="nature.jpg" alt="oceannight" />
+                    <p>Serenity of the Night!</p>
+                </div>
+            </div>
+        </section>
+        <!--Contact section-->
+        <section id="contact" class="contact-section">
+            <div class="contact-section-header">
+                <h2>Enjoy my Serene Art.</h2>
+                <p class="contactp">Expression to be shared with all!! Contact me for which art interests you.</p>
+            </div>
+            <div class="contact-links">
+                <!--encryption of email-->
+                <script type="text/javascript">
+                    function decode(a) {
+                      return a.replace(/[a-zA-Z]/g, function(c){
+                        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) 
+                                                   ? c : c - 26);
+                      })
+                    }; 
+                    function openMailer(element) {
+                    var y = decode("znvygb:orahgmre@qbznva.qr");
+                    element.setAttribute("href", y);
+                    element.setAttribute("onclick", "");
+                    element.firstChild.nodeValue = "Open email software";
+                    };
+                    </script>
+
+
+                <a  id="email" href="Cheatham.alex9@gmail.com" target="blank" onclick='openMailer(this);'><i class='fa fa-at' style="font-size:30px;color:red"></i><i><b>S</b>end Email</i></a>
+                <a href="https://instagram.com/xelacheatham?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram" style="font-size:30px;color:red"></i><i><b>I</b>nstagram</i></a>
+            </div>
+        </section>
+    </body>
+</div>
+
+</html>
