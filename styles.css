@@ -11,16 +11,16 @@ html, body {
         font-size: 2rem;
     }
     /*change*/
-    .name{
-         font-size: 12px;
+    .artist-section > h2{
+        font-size: 18pxpx;
     }
      .artist-section > p{
         font-size: small;
     }
     .introducingart > h2{
-        font-size: 20px;
+        font-size: 18px;
     }
-     .introducingart > .gallery > p{
+     .introducingart > .gallery > .border > p{
         font-size: smaller;
     }
     /*ccccc*/
