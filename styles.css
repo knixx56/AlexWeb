@@ -12,7 +12,7 @@ html, body {
     }
     /*change*/
     .name{
-         font-size: 20px;
+         font-size: 12px;
     }
      .artist-section > p{
         font-size: small;
@@ -20,7 +20,7 @@ html, body {
     .introducingart > h2{
         font-size: 20px;
     }
-     .introducingart > p{
+     .introducingart > .gallery > p{
         font-size: smaller;
     }
     /*ccccc*/
