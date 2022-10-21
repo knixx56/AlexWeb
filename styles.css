@@ -7,14 +7,18 @@ html, body {
     .pagewrapper, body, nav, .topage, img{
         width: 100%;
     }
-    .topage > h1, .name{
+    .topage > h1{
         font-size: 2rem;
+    }
+    /*change*/
+    .name{
+        font-size: 1rem;
     }
     h2{
         font-size: 1rem;
     }
     p{
-        font-size: small;
+        font-size: smaller;
     }
     .artist-section{
         width: 100%;
