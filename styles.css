@@ -4,11 +4,17 @@ html, body {
     overflow-x: hidden;
 }
 @media screen and (max-width: 600px){
-    .pagewrapper, body, nav, .topage{
+    .pagewrapper, body, nav, .topage, img{
         width: 100%;
     }
-    .topage > h1{
+    .topage > h1, .name{
         font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    p{
+        font-size: small;
     }
     .artist-section{
         width: 100%;
