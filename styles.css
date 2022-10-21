@@ -4,13 +4,20 @@ html, body {
     overflow-x: hidden;
 }
 @media screen and (max-width: 600px){
-    .pagewrapper, body, nav{
+    .pagewrapper, body, nav, .topage{
         width: 100%;
+    }
+    .topage > h1{
+        font-size: 2rem;
+    }
+    .artist-section{
+        width: 100%;
+        font-size: 1rem;
     }
 }
 nav{
   display: flex;
-  justify-content: end;
+  justify-content: center;
   margin-right: 10px;
 }
 .navlist li{
@@ -47,7 +54,7 @@ p{
     background-color: darkblue;
     text-align: center;
     border-radius: 30px;
-    border: maroon 8px double;
+    border:rgba(255, 0, 0, 0.671) 8px double;
     box-shadow: 4px 8px 6px 4px rgba(0, 187, 255, 0.837);
     width: 100%;
     position: fixed;
@@ -113,7 +120,7 @@ background-color: black;
 }
 .gallery div{
    border: green solid 6px;
-   background-color: red;
+   background-color: darkblue;
 }
 
 /*Contact-section8*/
