@@ -14,7 +14,7 @@ html, body {
     .name{
         font-size: 1rem;
     }
-    h2{
+    .artist-section > h2{
         font-size: 1rem;
     }
     p{
@@ -100,7 +100,6 @@ padding-top: 70px;
 img{
     height: 400px;
     width: 320px;
-     max-width: 100%;
 }
 .info{
     margin-top: 90px;
