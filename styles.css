@@ -3,6 +3,11 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+@media screen and (max-width: 600px){
+    .pagewrapper, body, nav{
+        width: 100%;
+    }
+}
 nav{
   display: flex;
   justify-content: end;
