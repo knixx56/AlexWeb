@@ -13,6 +13,7 @@ html, body {
     /*change*/
     .artist-section > h2{
         font-size: 24px;
+        font-weight: 600;
     }
      .artist-section > p{
         font-size: small;
@@ -84,7 +85,7 @@ input{
 
 /*Artist-sectoin*/
 .name{
-font-weight: 600;
+font-weight: 800;
 font-size: 3rem; 
 font-family:'Courier New', Courier, monospace;
 color: aliceblue;
@@ -126,6 +127,7 @@ background-color: black;
 }
 .galleryhead{
     font-size: 3rem; 
+    padding-bottom: 50px;
 }
 .gallery{
     display: flex;
@@ -134,9 +136,8 @@ background-color: black;
 }
 .gallery img{
   display: block;
-  padding: 7px 25px 2px 25px;
   height: 350px;
-    
+  border: green solid 6px; 
   width: auto;
   max-width: 100%;
 }
