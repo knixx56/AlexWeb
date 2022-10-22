@@ -23,7 +23,8 @@ html, body {
     }
     .introducingart > .gallery > .border > img{
         max-width: 100%;
-        height: 250;
+        width: auto;
+        height: auto;
     }
      .introducingart > .gallery > .border > p{
         font-size: smaller;
