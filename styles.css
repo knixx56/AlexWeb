@@ -4,7 +4,7 @@ html, body {
     overflow-x: hidden;
 }
 @media screen and (max-width: 600px){
-    .pagewrapper, body, nav, .topage, img{
+    .pagewrapper, body, nav, .topage{
         width: 100%;
     }
     .topage > h1{
