@@ -79,13 +79,9 @@ p{
     top: 0;
     color: aliceblue;
 }
-input{
-    justify-content: center;
-}
-
 /*Artist-sectoin*/
 .name{
-font-weight: 800;
+font-weight: 600;
 font-size: 3rem; 
 font-family:'Courier New', Courier, monospace;
 color: aliceblue;
@@ -103,16 +99,13 @@ padding-top: 70px;
     color: aliceblue;
     height: 70vh;
     padding: 100px 0px;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 img{
     height: 400px;
     width: 320px;
     object-fit: cover;
     max-width: 100%;
-}
-.info{
-    margin-top: 90px;
 }
 /*Gallery SEction*/
 
@@ -122,12 +115,13 @@ background-color: black;
  color: white;
  height: 60vh;
  width: 100%;
- padding: 200px 0;
- height: 46vh;
+ padding-top: 130px;
+ height: 70vh;
 }
 .galleryhead{
     font-size: 3rem; 
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    text-decoration: overline;
 }
 .gallery{
     display: flex;
