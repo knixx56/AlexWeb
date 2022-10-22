@@ -21,6 +21,9 @@ html, body {
     .introducingart > h2{
         font-size: 24px;
     }
+    .introducingart > .gallery > .border > img{
+        max-width: 100%;
+    }
      .introducingart > .gallery > .border > p{
         font-size: smaller;
     }
@@ -114,7 +117,6 @@ img{
     height: 400px;
     width: 320px;
     object-fit: cover;
-    max-width: 100%;
 }
 /*Gallery SEction*/
 
