@@ -18,6 +18,11 @@ html, body {
      .artist-section > p{
         font-size: small;
     }
+    .introducingart{
+        white-space: nowrap;
+       overflow-x: scroll;
+        width: 100%;
+    }
     .introducingart > h2{
         font-size: 24px;
     }
