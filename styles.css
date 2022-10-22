@@ -142,7 +142,6 @@ background-color: black;
 .gallery img{
   display: block;
   height: 350px;
-  border: green solid 6px; 
   max-width: 100%;
 }
 .gallery div{
