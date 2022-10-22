@@ -27,10 +27,10 @@ html, body {
      .introducingart > .gallery > .border > p{
         font-size: smaller;
     }
-      .contact-section contact-section-header h2{
+      .contact-section contact-section-header > h2{
         font-size: 18px;
     }
-    .contact-section contact-section-header p{
+    .contact-section contact-section-header >p{
         font-size: small;
     }
     .contact-section > .contact-links > a{
