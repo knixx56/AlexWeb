@@ -24,14 +24,14 @@ html, body {
      .introducingart > .gallery > .border > p{
         font-size: smaller;
     }
-      .contact-section > h2{
+      .contact-section contact-section-header h2{
         font-size: 18px;
     }
-    .contact-section > p{
-        font-size: x-small;
+    .contact-section contact-section-header p{
+        font-size: small;
     }
     .contact-section > .contact-links > a{
-        font-size: x-small;
+        font-size: small;
     }
     /*ccccc*/
     p{
