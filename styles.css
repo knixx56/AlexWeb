@@ -21,11 +21,11 @@ html, body {
     .introducingart > h2{
         font-size: 24px;
     }
-   /* .introducingart > .gallery > .border > img{
+    .introducingart > .gallery > .border > img{
         max-width: 100%;
         width: auto;
         height: auto;
-    }*/
+    }
      .introducingart > .gallery > .border > p{
         font-size: small;
     }
