@@ -83,8 +83,7 @@ p{
 .topage{
     background-color: darkblue;
     text-align: center;
-    border-radius: 30px;
-    border:rgba(255, 0, 0, 0.671) 8px double;
+    border:rgba(255, 0, 0, 0.671) 8px solid;
     box-shadow: 4px 8px 6px 4px rgba(0, 187, 255, 0.837);
     width: 100%;
     position: fixed;
