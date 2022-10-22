@@ -135,12 +135,9 @@ background-color: black;
     text-decoration: overline;
 }
 .gallery{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
-  grid-gap: 1rem;
-  max-width: 960px;
-  margin: 0 auto;
-  margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
 }
 .gallery img{
   display: block;
