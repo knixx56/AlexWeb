@@ -58,19 +58,25 @@ nav{
   margin-right: 10px;
 }
 .navlist li{
-display: inline;
-padding: 2px;
+padding: 8px;
 font-style: italic;
 font-weight: 900;
 font-family: 'Courier New', cursive;
+display: list-item;
+list-style-type: circle;
+list-style-position: inside;
+float: right;
 }
+
+nav li a{
+    color: aliceblue;
+}
+
 a{
  text-decoration: none;
  color: black;
 }
-nav li a{
-    color: aliceblue;
-}
+
 h1{ 
     display: inline;
     font-family: 'Brush Script MT', cursive;
@@ -84,8 +90,20 @@ p{
     font-weight: 600;
 }
 
+h3{
+    color:  gold;
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 6px;
+    padding-top: 8px;
+    background-color: darkblue;
+    
+}
+
 .greetings{
-    font-size: 25px;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgba(255, 191, 0, 0.741);
 }
 .topage{
     background-color: darkblue;
@@ -112,11 +130,10 @@ padding-top: 70px;
     width: 100%;
     justify-content: center;
     text-align: center;
-    border-bottom: red solid 4px;
+    border-bottom: rgba(0, 187, 255, 0.837) solid 4px;
     color: aliceblue;
-    height: 70vh;
+    height: 87vh;
     padding: 100px 0px;
-    margin-top: 35px;
 }
 img{
     height: 400px;
@@ -129,12 +146,13 @@ img{
 background-color: black;
  text-align: center;
  color: white;
- height: 60vh;
  width: 100%;
  padding-top: 130px;
  height: 70vh;
 }
 .galleryhead{
+    font-family:'Courier New', Courier, monospace;
+    color: aliceblue;
     font-size: 3rem; 
     padding-bottom: 30px;
     text-decoration: overline;
