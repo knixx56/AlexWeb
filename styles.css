@@ -173,6 +173,7 @@ background-color: black;
  width: 100%;
  padding-top: 130px;
  height: 70vh;
+ overflow: scroll;
 }
 .galleryhead{
     font-family:'Courier New', Courier, monospace;
