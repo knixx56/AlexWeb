@@ -21,7 +21,7 @@ html, body {
     .introducingart{
         white-space: nowrap;
        overflow-x: scroll;
-        width: 100%;
+       /* width: 100%;*/
     }
     .introducingart > h2{
         font-size: 24px;
