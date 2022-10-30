@@ -33,10 +33,10 @@ html, body {
     }
      /*.introducingart > .gallery > .border > p{
         font-size: small;
-    }*/
+    }
       .contact-section > .contact-section-header > h2{
         font-size: 18px;
-    }
+    }*/
     .contact-section > .contactp{
         font-size: large;
     }
@@ -102,21 +102,12 @@ h3{
     background-color: rgba(255, 191, 0, 0.741);
 }
 
-@media (max-width: 400px){
-    .artist-section > .greetings{
-        font-size: 12px;
-    }
-    h3{
-      font-size: 16px;
-      }  
-    }
-
 @media (max-width: 600px){
  .artist-section > .greetings{
         font-size: 15px;
     }
     h3{
-        font-size: 20px;
+        font-size: 3rem;
     }
     .artist-section > .selfie{
         height: 320px;
