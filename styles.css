@@ -37,19 +37,15 @@ html, body {
       .contact-section > .contact-section-header > h2{
         font-size: 18px;
     }
-    .contact-section > .contact-section-header >p{
-        font-size: small;
+    .contact-section > .contactp{
+        font-size: large;
     }
     .contact-section > .contact-links > a{
-        font-size: small;
+        font-size: medium;
     }
     /*ccccc*/
     p{
         font-size: smaller;
-    }
-    .artist-section{
-        width: 100%;
-        font-size: 1rem;
     }
 }
 nav{
@@ -104,6 +100,25 @@ h3{
     font-size: 20px;
     text-align: left;
     background-color: rgba(255, 191, 0, 0.741);
+}
+
+@media (max-width: 600px){
+ .artist-section > .greetings{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .artist-section > .selfie{
+        height: 320px;
+        width: 320px;
+    }
+    .pagewrapper > .artist-section{
+        padding-top: 20px;
+    }
+    .pagewrapper > .introducingart{
+        padding-top: 50px;
+    }
 }
 .topage{
     background-color: darkblue;
