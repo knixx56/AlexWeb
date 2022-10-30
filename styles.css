@@ -113,6 +113,9 @@ h3{
         height: 320px;
         width: 320px;
     }
+    .artist-section > .name{
+      margin-bottom: 15px;
+    }
     .pagewrapper > .artist-section{
         padding-top: 20px;
     }
