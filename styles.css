@@ -31,12 +31,6 @@ html, body {
         width: auto;
         height: auto;
     }
-     /*.introducingart > .gallery > .border > p{
-        font-size: small;
-    }
-      .contact-section > .contact-section-header > h2{
-        font-size: 18px;
-    }*/
     .contact-section > .contactp{
         font-size: large;
     }
@@ -114,7 +108,7 @@ h3{
         width: 320px;
     }
     .artist-section > .name{
-      margin-bottom: 15px;
+      margin-bottom: 13px;
     }
     .pagewrapper > .artist-section{
         padding-top: 20px;
@@ -153,12 +147,8 @@ padding-top: 70px;
     height: 88vh;
     padding: 100px 0px;
 }
-/*img{
-    height: 400px;
-    width: 320px;
-    object-fit: cover;
-}*/
-/*Gallery SEction*/
+
+/*Gallery Section*/
 
 .introducingart{
 background-color: black;
