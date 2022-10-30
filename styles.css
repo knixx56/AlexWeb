@@ -3,7 +3,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-@media screen and (max-width: 600px){
+@media (max-width: 600px){
     .pagewrapper, body, nav, .topage{
         width: 100%;
     }
@@ -31,9 +31,9 @@ html, body {
         width: auto;
         height: auto;
     }
-     .introducingart > .gallery > .border > p{
+     /*.introducingart > .gallery > .border > p{
         font-size: small;
-    }
+    }*/
       .contact-section > .contact-section-header > h2{
         font-size: 18px;
     }
@@ -102,6 +102,15 @@ h3{
     background-color: rgba(255, 191, 0, 0.741);
 }
 
+@media (max-width: 400px){
+    .artist-section > .greetings{
+        font-size: 12px;
+    }
+    h3{
+      font-size: 16px;
+      }  
+    }
+
 @media (max-width: 600px){
  .artist-section > .greetings{
         font-size: 15px;
@@ -147,14 +156,14 @@ padding-top: 70px;
     text-align: center;
     border-bottom: rgba(0, 187, 255, 0.837) solid 4px;
     color: aliceblue;
-    height: 87vh;
+    height: 88vh;
     padding: 100px 0px;
 }
-img{
+/*img{
     height: 400px;
     width: 320px;
     object-fit: cover;
-}
+}*/
 /*Gallery SEction*/
 
 .introducingart{
