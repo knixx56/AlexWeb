@@ -26,11 +26,11 @@ html, body {
     .introducingart > h2{
         font-size: 24px;
     }
-    .introducingart > .gallery > .border > img{
+   /* .introducingart > .gallery > .border > img{
         max-width: 100%;
         width: auto;
         height: auto;
-    }
+    }*/
     .contact-section > .contactp{
         font-size: large;
     }
@@ -83,7 +83,7 @@ p{
 h3{
     color:  gold;
     text-align: left;
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 6px;
     padding-top: 8px;
     background-color: darkblue;
@@ -95,16 +95,22 @@ h3{
     text-align: left;
     background-color: rgba(255, 191, 0, 0.741);
 }
-
+@media (max-width: 1000px){
+    .pagewrapper > .artist-section{
+        
+        overflow: hidden;
+        
+    }
+}
 @media (max-width: 600px){
  .artist-section > .greetings{
-        font-size: 13px;
+        font-size: 16px;
     }
     h3{
         font-size: 15px;
     }
     .artist-section > .selfie{
-        height: 316px;
+        height: 320px;
         width: 320px;
     }
     .artist-section > .name{
@@ -144,8 +150,15 @@ padding-top: 70px;
     text-align: center;
     border-bottom: rgba(0, 187, 255, 0.837) solid 4px;
     color: aliceblue;
-    height: 88vh;
+    height: 90vh;
     padding: 100px 0px;
+}
+
+.selfie{
+    height: 400px;
+    width: 320px;
+    object-fit: cover;
+    max-width: 100%;
 }
 
 /*Gallery Section*/
