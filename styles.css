@@ -3,14 +3,95 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-@media (max-width: 600px){
+
+/** media queries to adjust webpage for screen size
+*/
+@media  screen and (max-width: 980px){
+    .topage h1{
+        font-size: clamp(5.5rem, 3vw, 9.5rem);
+    }
+    /*change*/
+    .artist-section > h2{
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+     .artist-section > p{
+        font-size: clamp(1rem, 3vw, 3rem);
+    }
+   .introducingart > h2{
+        font-size: 2.5rem;
+    }
+    .pagewrapper .introducingart{
+        height: 70vh;
+    }
+    .pagewrapper .artist-section{
+        height: 80vh;
+    }
+    .contact-section > .contactp{
+        font-size: large;
+    }
+    .contact-section > .contact-links > a{
+        font-size:larger;
+    }
+}
+@media screen and (max-width:400px) {
+    .contact-section, .introducingart{
+        width: 100%;
+    }
+    .topage h1{
+        font-size: clamp(2.5rem, 3vw, 5.5rem);
+    }
+    .artist-section .name{
+        font-size: 1.7rem;
+    }
+    .artist-section p{
+        font-size: 3rem;
+    }
+    .introducingart h2{
+        font-size: 1.7rem;
+    }
+    .artist-section > .greetings{
+        font-size: clamp(12px, 3vh, 14px);
+    }
+    
+    h3{
+        font-size: 1.25rem;
+    }
+    .artist-section > .selfie{
+        height: 320px;
+        width: 320px;
+    }
+    
+    .pagewrapper > .artist-section{
+        padding-top: 25px;
+        padding-bottom: 250px;
+    }
+    .pagewrapper > .introducingart{
+        padding-top: 55px;
+        padding-bottom: 165px;
+    }
+    .pagewrapper .introducingart .gallery img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .pagewrapper .introducingart .gallery{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        grid-gap: 4rem;
+        width: 100%;
+        max-width:325px;
+        margin: 0 auto;
+    }
+}
+/*@media (max-width: 600px){
     .pagewrapper, body, nav, .topage{
         width: 100%;
     }
     .topage > h1{
         font-size: 2rem;
     }
-    /*change*/
+  
     .artist-section > h2{
         font-size: 24px;
         font-weight: 600;
@@ -18,30 +99,22 @@ html, body {
      .artist-section > p{
         font-size: small;
     }
-     /*.introducingart{
-        white-space: nowrap;
-       overflow-x: scroll;
-       width: 100%;
-    }*/
+   
     .introducingart > h2{
         font-size: 24px;
     }
-   /* .introducingart > .gallery > .border > img{
-        max-width: 100%;
-        width: auto;
-        height: auto;
-    }*/
+ 
     .contact-section > .contactp{
         font-size: large;
     }
     .contact-section > .contact-links > a{
         font-size: medium;
     }
-    /*ccccc*/
+    
     p{
         font-size: smaller;
     }
-}
+}*/
 nav{
   display: flex;
   justify-content: center;
@@ -75,54 +148,27 @@ h1{
 }
 p{
     font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
     font-size: large;
     font-weight: 600;
 }
 
 h3{
-    color:  gold;
+    color:  black;
     text-align: left;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-bottom: 6px;
     padding-top: 8px;
-    background-color: darkblue;
+    background-color:  rgba(0, 187, 255, 0.837);
     
 }
 
 .greetings{
-    font-size: 20px;
+    font-size: clamp(10px, 3vw, 16px);
     text-align: left;
-    background-color: rgba(255, 191, 0, 0.741);
+    background-color: black;
+    font-family: 'Courier New', cursive;
 }
-@media (max-width: 1000px){
-    .pagewrapper > .artist-section{
-        
-        overflow: hidden;
-        
-    }
-}
-@media (max-width: 600px){
- .artist-section > .greetings{
-        font-size: 16px;
-    }
-    h3{
-        font-size: 15px;
-    }
-    .artist-section > .selfie{
-        height: 320px;
-        width: 320px;
-    }
-    .artist-section > .name{
-      margin-bottom: 13px;
-    }
-    .pagewrapper > .artist-section{
-        padding-top: 20px;
-    }
-    .pagewrapper > .introducingart{
-        padding-top: 50px;
-    }
-}
+
 .topage{
     background-color: darkblue;
     text-align: center;
@@ -132,10 +178,10 @@ h3{
     top: 0;
     color: aliceblue;
 }
-/*Artist-sectoin*/
+/*Artist-section*/
 .name{
 font-weight: 600;
-font-size: 3rem; 
+font-size: clamp(1rem, 3vw, 3rem); 
 font-family:'Courier New', Courier, monospace;
 color: aliceblue;
 margin-bottom: 30px;
@@ -169,8 +215,8 @@ background-color: black;
  color: white;
  width: 100%;
  padding-top: 130px;
- height: 70vh;
- overflow: scroll;
+ height: 130vh;
+ 
 }
 .galleryhead{
     font-family:'Courier New', Courier, monospace;
@@ -181,35 +227,45 @@ background-color: black;
 }
 .gallery{
     /*display: flex;
-    flex-direction: row;
-    justify-content: center;*/
-   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0 4px; 
+  padding: 0 4px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    grid-gap: 1rem;
+    width: 100%;
+    max-width: 870px;
+    margin: 0 auto;
+   
 }
 .gallery img{
   display: block;
-  /*height: 350px;*/
-  object-fit: cover;
-  max-width: 100%;
+  height: 350px;
+  width: 350px;
+  /* object-fit: cover;
+  max-width: 100%;*/
+ 
 }
-.gallery div{
-   border-top: green solid 6px;
+.gallery p{
+   padding-left: 30px;
+   
+ }
+/*.gallery div{
+   border-top:rgba(0, 187, 255, 0.837) solid 6px;
    background-color: darkblue;
-}
+}*/
 .image1{
-    border-left: green solid 6px;
+    border: rgba(0, 187, 255, 0.837) solid 6px;
    
  }
  .image2{
-     border-left: green solid 6px;
+     border: rgba(0, 187, 255, 0.837) solid 6px;
  }
  .image3{
-    border-left: green solid 6px;
-    border-right: green solid 6px;
+    border: rgba(0, 187, 255, 0.837) solid 6px;
+    
  }
 /*Contact-section8*/
 .contact-section{
